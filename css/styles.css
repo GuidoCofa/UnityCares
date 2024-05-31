@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000; 
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.login button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #578fbd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.content {
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.logoong {
+    width: 150px;
+    height: 150px;
+}
