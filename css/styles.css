@@ -336,3 +336,94 @@ nav ul li a {
     padding: 10px;
     text-align: center;
 }
+/* Contenedor general del calendario */
+.calendar-container {
+    width: 420px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F9F9F9; /* Gris muy claro para un fondo limpio */
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 300px; /* Asegura que el contenedor tenga suficiente altura */
+  }
+  
+  /* Cabecera del calendario */
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Mes y Año */
+  .month-year {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2C3E50; /* Azul oscuro para el texto */
+  }
+  
+  /* Botones de navegación (meses) */
+  .nav-button {
+    border: none;
+    background-color: #3498DB; /* Azul profesional */
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: #2980B9; /* Azul más oscuro para hover */
+  }
+  
+  /* Contenedor de los días y fechas */
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-top: 20px;
+  }
+  
+  /* Encabezado de los días */
+  .day {
+    font-weight: bold;
+    background-color: #BDC3C7; /* Gris medio */
+    padding: 10px;
+    border-radius: 8px;
+    color: #2C3E50; /* Azul oscuro para el texto */
+    text-align: center;
+  }
+  
+  /* Estilo para las fechas */
+  .date {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF0F1; /* Gris claro */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #2C3E50; /* Azul oscuro para el texto */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .date:hover {
+    background-color: #BDC3C7; /* Gris medio para hover */
+  }
+  
+  /* Ajustes generales para el diseño */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EAEAEA; /* Gris claro para el fondo de la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
