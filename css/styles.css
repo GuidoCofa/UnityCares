@@ -417,7 +417,7 @@ nav ul li a {
   }
   
   /* Ajustes generales para el diseño */
-  body {
+  .bodycalendar {
     font-family: 'Arial', sans-serif;
     background-color: #EAEAEA; /* Gris claro para el fondo de la página */
     display: flex;
